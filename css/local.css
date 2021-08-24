@@ -1,0 +1,139 @@
+.nav {
+    background-color: #007155;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/*SITE LINKS*/
+/* unvisited link */
+a:link {
+    /*color: rgb(91,162,62);*/
+    /*color: white;*/
+    color: rgb(212, 144, 20);
+}
+
+/* visited link */
+a:visited {
+    /*color: rgb(0,102,75);*/
+    color: #159FDA;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(212, 144, 20);
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+/*SITE LINKS*/
+
+/*NAV LINKS*/
+/* unvisited link */
+nav a:link {
+    /*color: rgb(91,162,62);*/
+    color: white;
+}
+
+/* visited link */
+nav a:visited {
+    /*color: rgb(0,102,75);*/
+    color: white;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: rgb(212, 144, 20);
+}
+
+/* selected link */
+nav a:active {
+    color: black;
+}
+
+/*NAV LINKS*/
+.site_title {
+    font-family: "Playfair Display", serif;
+    color: #66AC47;
+}
+
+.tab_title {
+    margin-top: 1.5rem;
+    font-family: "Playfair Display", serif;
+    color: black;
+}
+
+.square {
+    list-style: square;
+}
+
+.jumbotron_style {
+    /*background-color: #007155;*/
+    /*color: white;*/
+    background-color: white;
+    color: black;
+    font-family: "Playfair Display", serif;
+}
+
+.subtitle {
+    font-family: "Oswald Regular";
+    opacity: 0.5;
+    word-spacing: .2rem;
+}
+
+#uvm-logo {
+    padding-bottom: 3rem;
+}
+
+.foot_style {
+    background-color: #007155;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+
+.left-padding {
+    padding-left: 2rem;
+}
+
+.text-content {
+    font-family: "Raleway", sans-serif;
+
+}
+
+.padding-top {
+    margin-top: 1rem;
+}
+
+.bg-dark {
+    background-color: #007155;
+}
+
+.card {
+    border: none;
+    padding-left: 0;
+}
+
+.card-body {
+    padding-left: 0;
+
+}
+
+.faculty_name {
+    font-family: "Playfair Display", serif;
+    padding-left: 0;
+}
+
+.research_assistants {
+    padding-top: 2.5rem;
+}
+
+.plaid_highlight {
+    color: rgb(212, 144, 20);
+    opacity: 1;
+}
