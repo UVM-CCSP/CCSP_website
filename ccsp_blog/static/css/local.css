@@ -1,3 +1,7 @@
+img {
+    margin-right: 7px;
+}
+
 .nav {
     background-color: #007155;
     font-family: "Roboto", sans-serif;
@@ -15,7 +19,7 @@ a:link {
 /* visited link */
 a:visited {
     /*color: rgb(0,102,75);*/
-    color: #159FDA;
+    color:coral;
 }
 
 /* mouse over link */
@@ -69,13 +73,6 @@ nav a:active {
     list-style: square;
 }
 
-.jumbotron_style {
-    /*background-color: #007155;*/
-    /*color: white;*/
-    background-color: white;
-    color: black;
-    font-family: "Playfair Display", serif;
-}
 
 .subtitle {
     font-family: "Oswald Regular";
@@ -95,6 +92,7 @@ nav a:active {
     /*position: absolute;*/
     bottom: 0;
     width: 100%;
+    max-height: 100px;
 }
 
 .left-padding {
@@ -137,3 +135,70 @@ nav a:active {
     color: rgb(212, 144, 20);
     opacity: 1;
 }
+
+.logo {
+    max-height: 196px;
+}
+
+.page {
+    height:fit-content;
+    min-height:256px;
+    padding-bottom: 10px;
+}
+
+.page img {
+    border-radius: 5%;
+    float: left;
+}
+
+.page h1 {
+    font-size: 18pt;
+}
+
+.page h3 {
+    font-size: 14pt;
+}
+
+.post {
+    margin-bottom: 15px;
+}
+
+.post > h1 {
+    font-size: 18pt;
+}
+
+.post img {
+    max-width: 256px;
+    max-height: 256px;
+    float: left;
+    border-radius: 5%;
+}
+
+.labs {
+    min-height: 256px;
+    max-height: 512px;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        max-width: 100%;
+    }
+    .page img {
+        width: 100%;
+    }
+    /* Somewhere in here use css to make the nav bar a hamburger menu on mobile. */
+    .nav li {
+      float: left;
+    }
+    .nav li a {
+      padding: 20px 30px;
+    }
+    .nav .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .nav .menu-icon {
+      display: none;
+    }
+  }
