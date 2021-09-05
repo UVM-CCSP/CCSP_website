@@ -2,11 +2,24 @@
 
 {% block content %}
 
+<h1>{{ section.title }}</h1>
+
 {% for page in section.pages %}
 
-<div class="lab">
-    {{ page.content }}
+{% if page.extra and page.extra.background %}
+    <div class="lab-panel" style="background-color: {{ page.extra.background }}">
+{% else %}
+    <div class="lab-panel">
+{% endif %} 
+<div class="lab-content">
+    {% if page.extra and page.extra.logo %}
+    <a href="https://uvm.edu/~maple"><img src="{{page.extra.logo}}" alt="{{page.title}} logo"/></a>
+    {% endif %}
+    {{ page.title }}
 </div>
+</div>
+    
+
 
 {% endfor %}
 

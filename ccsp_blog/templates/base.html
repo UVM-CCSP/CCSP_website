@@ -60,7 +60,7 @@
                 {% for navitem in config.extra.menu %}
                 <a class="nav-item nav-link rounded-0" 
                    id="nav-{{ navitem.name | lower }}-tab" 
-                   href="{{ config.base_url }}/{{ navitem.name | lower }}"
+                   href="{{ config.base_url }}/{{ navitem.url }}"
                    >{{ navitem.name }}</a>
                 {% endfor %}
         </nav>

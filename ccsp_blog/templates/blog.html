@@ -12,6 +12,9 @@
             <h4><a href="{{ page.permalink }}">{{ page.title }}</a></h4>
             <strong>{{ page.date }}</strong>
             <div class="post__summary">
+                {% if page.extra and page.extra.preview %}
+                    <img src="{{ page.permalink }}/{{ page.extra.preview }}" style="width:64px;"/>
+                {% endif %}
                 {{ page.summary | safe }}
             </div>
             <div class="read-more">

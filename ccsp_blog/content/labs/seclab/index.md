@@ -1,3 +1,6 @@
 +++
-name = "Vermont SecLab"
+title = "Vermont SecLab"
+
+[extra]
+background = "black"
 +++

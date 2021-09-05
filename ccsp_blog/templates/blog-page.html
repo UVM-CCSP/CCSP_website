@@ -11,4 +11,22 @@
   {{ page.content | safe }}
 </div>
 
+<div class="paginator">
+  <hr/>
+  <div class="text-center"><a href="{{config.base_url}}/blog">Blog Home</a></div>
+
+  {% if page.earlier %}
+      <a class="previous" href="{{ page.earlier.permalink }}">‹ {{page.earlier.title}}</a>
+  {% endif %}
+  {% if page.earlier and page.later %}
+    <span class="mid">
+      &middot;&middot;&middot;
+    </span>
+  {% endif %}
+  {% if page.later %}
+      <a class="next" href="{{ page.later.permalink }}">{{page.later.title}} ›</a>
+  {% endif %}
+  <hr/>
+</div>
+
 {% endblock content %}

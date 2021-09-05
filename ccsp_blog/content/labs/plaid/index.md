@@ -1,6 +1,8 @@
 +++
-name = "PLAID"
-background-color = "#007155"
+title = "PLAID"
+
+[extra]
+background = "#007155"
 +++
 
 The <span class="plaid_highlight">P</span>rogramming <span

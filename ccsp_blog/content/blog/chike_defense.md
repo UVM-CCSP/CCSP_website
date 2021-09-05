@@ -1,6 +1,6 @@
 +++
 title = "First CCSP PhD defense!"
-draft = false
+draft = true
 date = 2021-09-07
 +++
 

@@ -1,3 +1,4 @@
 +++
-name = "HCI Lab Placeholder name"
+title = "HCI Lab Placeholder name"
+draft = true
 +++
