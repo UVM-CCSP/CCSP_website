@@ -3,7 +3,7 @@ title = "Welcome to the UVM Center for Computer Security and Privacy!"
 template = "page.html"
 +++
 
-![Center Director Dr. Christian Skalka](blog/img/skalka.jpg)
+![Center Director Dr. Christian Skalka](skalka.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec tortor vitae quam hendrerit semper eget at libero. Curabitur posuere vitae velit pretium sodales. Nulla gravida lectus imperdiet massa varius lobortis. Duis dapibus purus ut pulvinar tempor. Donec in erat nec turpis malesuada hendrerit a id ligula. Vivamus eu pharetra nunc. Etiam sapien sapien, aliquam laoreet finibus ut, porttitor ut magna. Fusce vitae ultrices libero. Etiam ut quam at orci volutpat facilisis. Maecenas scelerisque consequat magna, vitae pellentesque eros congue tincidunt. Nullam fringilla magna ac leo tempor, vitae pulvinar leo dapibus. Cras ac tempus eros. Cras egestas arcu sed velit consectetur gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor est in dolor fermentum mollis.
 

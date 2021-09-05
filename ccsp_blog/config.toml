@@ -15,10 +15,11 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 menu = [
-    {url = "$BASE_URL", name = "Welcome"},
-    {url = "$BASE_URL/blog", name = "Blog"},
-    {url = "$BASE_URL/labs", name = "Research"},
-    {url = "$BASE_URL/education", name = "Education"}
+    {url = "$BASE_URL/welcome"  , name = "Welcome"         },
+    {url = "$BASE_URL/blog"     , name = "Blog"            },
+    {url = "$BASE_URL/labs"     , name = "Research"        },
+    {url = "$BASE_URL/education", name = "Education"       },
+    {url = "$BASE_URL/vision"   , name = "Vision Statement"}
 ]
 katex_enable = true
 katex_auto_render = true

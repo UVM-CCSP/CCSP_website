@@ -34,20 +34,45 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav nav-tabs navbar-dark" id="nav-tab" role="tablist">
-            {% for navitem in config.extra.menu %}
-            <a class="nav-item nav-link rounded-0" 
-               id="nav-{{ navitem.name | lower }}-tab" 
-               href="{{ config.base_url }}/{{ navitem.name | lower }}"
-               >{{ navitem.name }}</a>
-            {% endfor %}
-        </div>
-    </nav>
-    
+    <header>
+        <a href="#main-menu"
+           id="main-menu-toggle"
+           class="menu-toggle navbar-dark nav nav-tabs"
+           aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            <span class="fa fa-bars" aria-hidden="false"></span>
+            &#x2630;
+            <!-- <h4 class="logo">Menu</h4> -->
+        </a>
+        
+
+        <nav id    = "main-menu" 
+             class = "nav nav-tabs navbar-dark main-menu"  
+             role  = "tablist"
+             aria-label="Main menu">
+            <a href="#main-menu-toggle"
+               id="main-menu-close"
+               class="menu-close"
+               aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                <span class="fa fa-close" aria-hidden="true"></span>
+            </a>
+                {% for navitem in config.extra.menu %}
+                <a class="nav-item nav-link rounded-0" 
+                   id="nav-{{ navitem.name | lower }}-tab" 
+                   href="{{ config.base_url }}/{{ navitem.name | lower }}"
+                   >{{ navitem.name }}</a>
+                {% endfor %}
+        </nav>
+        <a href="#main-menu-toggle"
+        class="backdrop"
+        tabindex="-1"
+        aria-hidden="true" hidden></a>
+    </header>
+
     {% block logo %}
     <div class="text-center">
-        <img id="uvm-logo" src="img/logo.png" class="logo">
+        <img id="uvm-logo" src="{{ config.base_url }}/img/logo.png" class="logo">
     </div>
     <hr/>
     {% endblock %}

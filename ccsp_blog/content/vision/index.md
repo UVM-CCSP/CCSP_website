@@ -1,7 +1,7 @@
-{% extends "base.html" %}
-
-{% block content %}
-
++++
+title = "Vision Statement"
+template = "page.html"
++++
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
         
@@ -29,4 +29,3 @@
         </div> 
     </div>
 </div>
-{% endblock content %}
