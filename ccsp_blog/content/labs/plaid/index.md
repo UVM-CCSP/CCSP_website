@@ -1,6 +1,6 @@
 +++
 title = "PLAID"
-index = 0
+weight = 0
 
 [extra]
 background = "#007155"
@@ -10,7 +10,7 @@ tagline = "Language-based security and privacy."
 email = "plaid@uvm.edu"
 
 [extra.director]
-name = "Joe Near"
+name = "Dr. Joe Near"
 url = "https://uvm.edu/~jnear"
 +++
 

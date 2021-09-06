@@ -1,5 +1,6 @@
 +++
 title = "MaPLE"
+weight = 2
 
 [extra]
 background = "firebrick"

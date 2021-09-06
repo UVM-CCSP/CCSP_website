@@ -1,6 +1,6 @@
 +++
 title = "Vermont SecLab"
-index = 1
+weight = 1
 
 [extra]
 background = "rgb(21,5,33)"
