@@ -3,12 +3,10 @@ title = "Education"
 template = "page.html"
 +++
 
-![Jim Eddy, Senior Lecturer](img/eddy.jpg)
 The UVM Department of Computer Science has a broad range of academic programs related to cyber defense. These offerings range from a certificate in cybersecurity designed for working professionals, right through a research-intensive Ph.D. with a focus on a cyber-defense-relevant topic. 
-Senior Lecturer Jim Eddy (pictured, left) leads the educational initiatives in cyber defense. 
+<!-- Senior Lecturer Jim Eddy (pictured, left) leads the educational initiatives in cyber defense.  -->
 
-<br/>
-<br/>
+---
 
 ### Programs: ###
 - Cybersecurity Certificate

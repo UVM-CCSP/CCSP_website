@@ -82,6 +82,7 @@ nav a:active {
 
 #uvm-logo {
     padding-bottom: 3rem;
+    max-height: 196px;
 }
 
 .foot_style {
@@ -137,7 +138,9 @@ nav a:active {
 }
 
 .logo {
-    max-height: 196px;
+    max-height: 64px;
+    border-radius: 15%;
+    float: left;
 }
 
 .page {
@@ -176,8 +179,8 @@ nav a:active {
 }
 
 .lab-panel {
-    min-height: 128px;
-    max-height: 256px;
+    min-height: 196px;
+    height: fit-content;
     border-radius: 15px 15px;
     margin-top: 25px;
     background-color: beige;
@@ -188,6 +191,7 @@ nav a:active {
     padding-top: 10px;
     margin: 0px 10px 0px 15px;
     color: white;
+    height: fit-content;
 }
 
 .paginator {

@@ -18,7 +18,6 @@ menu = [
     {url = "welcome"  , name = "Welcome"         },
     {url = "blog"     , name = "Blog"            },
     {url = "labs"     , name = "Research Labs"   },
-    {url = "projects" , name = "Projects"        },
     {url = "education", name = "Education"       },
     {url = "vision"   , name = "Vision Statement"}
 ]
