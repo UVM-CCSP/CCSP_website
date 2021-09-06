@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://uvm.edu/~etosch/CCSP_website/ccsp_blog/sitemap.xml
+Sitemap: https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/sitemap.xml

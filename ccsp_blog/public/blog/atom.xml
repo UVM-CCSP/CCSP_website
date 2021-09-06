@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title></title>
-	<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/"/>
+	<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2021-09-01T00:00:00+00:00</updated>
-	<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/atom.xml</id>
+	<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Dr. Tosch&#x27;s work featured in CACM</title>
 		<published>2021-09-01T00:00:00+00:00</published>
 		<updated>2021-09-01T00:00:00+00:00</updated>
-		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/planalyzer-cacm/" type="text/html"/>
-		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/planalyzer-cacm/</id>
+		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/planalyzer-cacm/" type="text/html"/>
+		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/planalyzer-cacm/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;uvm.edu%7E&#x2F;etosch&quot;&gt;Dr. Emma Tosch&lt;&#x2F;a&gt;&#x27;s work on static analysis for online field experiments&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; appears in the &lt;a href=&quot;https:&#x2F;&#x2F;cacm.acm.org&#x2F;magazines&#x2F;2021&#x2F;9&#x2F;255047-planalyzer&#x2F;fulltext&quot;&gt;September issue&lt;&#x2F;a&gt; of the &lt;a href=&quot;https:&#x2F;&#x2F;cacm.acm.org&#x2F;&quot;&gt;Communications of the ACM (CACM)&lt;&#x2F;a&gt;, the premier journal of the &lt;a href=&quot;http:&#x2F;&#x2F;acm.org&quot;&gt;Association for Computing Machinery&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;KDL-umass&#x2F;PlanAlyzer&quot;&gt;PlanAlyzer&lt;&#x2F;a&gt; is a linter for online field experiments written in the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;facebook&#x2F;planout&quot;&gt;Planout&lt;&#x2F;a&gt; language. The aim of this work is to catch problems such as &lt;em&gt;selection bias&lt;&#x2F;em&gt; earlier in the process of designing experiments, before resources have been spent collecting data that may not be useful. &lt;&#x2F;p&gt;
@@ -29,8 +29,8 @@
 		<title>Dr. Onaolapo presents honeypots work at USENIX 2021</title>
 		<published>2021-08-31T00:00:00+00:00</published>
 		<updated>2021-08-31T00:00:00+00:00</updated>
-		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/socialheisting/" type="text/html"/>
-		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/socialheisting/</id>
+		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/socialheisting/" type="text/html"/>
+		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/socialheisting/</id>
 		<content type="html">&lt;p&gt;Earlier this month, &lt;a href=&quot;https:&#x2F;&#x2F;uvm.edu&#x2F;%7Ejonaolap&quot;&gt;Dr. Jeremiah Onaolapo&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.usenix.org&#x2F;conference&#x2F;usenixsecurity21&#x2F;presentation&#x2F;onaolapo&quot;&gt;presented his work&lt;&#x2F;a&gt;&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.usenix.org&#x2F;system&#x2F;files&#x2F;sec21-onaolapo.pdf&quot;&gt;&lt;em&gt;SocialHEISTing: Understanding Stolen Facebook Accounts&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; at &lt;a href=&quot;https:&#x2F;&#x2F;www.usenix.org&#x2F;conference&#x2F;usenixsecurity21&quot;&gt;USENIX Security 2021&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; &lt;em&gt;Joint work with Nektarios Leontiadis, Despoina Magka, and Gianluca Stringhini&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
@@ -40,11 +40,11 @@
 		<title>UVM CCSP welcomes Dr. Yuanyuan Feng</title>
 		<published>2021-08-30T00:00:00+00:00</published>
 		<updated>2021-08-30T00:00:00+00:00</updated>
-		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/feng-new-hire/" type="text/html"/>
-		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/feng-new-hire/</id>
+		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/feng-new-hire/" type="text/html"/>
+		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/feng-new-hire/</id>
 		<content type="html">&lt;p&gt;Today is the start of classes and we are delight to formally introduce the newest member of the CCSP: &lt;a href=&quot;https:&#x2F;&#x2F;uvm.edu&#x2F;%7Efeng&quot;&gt;Dr. Yuanyuan Feng&lt;&#x2F;a&gt;!&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;welcome-dr-feng&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#welcome-dr-feng&quot; aria-label=&quot;Anchor link for: welcome-dr-feng&quot;&gt;🔗&lt;&#x2F;a&gt; Welcome, Dr. Feng!&lt;&#x2F;h1&gt;
-&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;uvm.edu&#x2F;%7Eetosch&#x2F;CCSP_website&#x2F;ccsp_blog&#x2F;blog&#x2F;feng-new-hire&#x2F;feng.jpg&quot; alt=&quot;Dr. Yuanyuan Feng (冯园媛)&quot; &#x2F;&gt; &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;uvm.edu&#x2F;%7Eetosch&#x2F;CCSP_website&#x2F;ccsp_blog&#x2F;public&#x2F;blog&#x2F;feng-new-hire&#x2F;feng.jpg&quot; alt=&quot;Dr. Yuanyuan Feng (冯园媛)&quot; &#x2F;&gt; &lt;&#x2F;p&gt;
 &lt;p&gt;The UVM Center for Computer Security (CCSP) and Privacy welcomes a fifth tenure-track faculty member in Dr. Yuanyuan Feng! Dr. Feng&#x27;s research will bring new dimensions to the CCSP via a human factors perspective on usable privacy and security. Dr. Feng&#x27;s experience in the healthcare sector will further enrich the unique confluence of interdisciplinary research here at UVM. &lt;&#x2F;p&gt;
 &lt;p&gt;Dr. Feng is currently teaching CS 228, Human-Computer Interaction. She will be teaching a graduate-level course on methods for HCI research in the spring and will be recruiting students throughout the 2021-2022 academic year. &lt;&#x2F;p&gt;
 </content>
@@ -53,8 +53,8 @@
 		<title>A new look for CCSP</title>
 		<published>2021-08-27T00:00:00+00:00</published>
 		<updated>2021-08-27T00:00:00+00:00</updated>
-		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/new-look/" type="text/html"/>
-		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/blog/new-look/</id>
+		<link href="https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/new-look/" type="text/html"/>
+		<id>https://uvm.edu/~etosch/CCSP_website/ccsp_blog/public/blog/new-look/</id>
 		<content type="html">&lt;p&gt;CCSP is sporting a new look! &lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;In the past 12 months, the UVM Center for Computer Security and Privacy has added three new tenure-track faculty with lively research programs, and have updated our look to match. We are now on social media and have a slate of exciting new programming for the upcoming year.&lt;&#x2F;p&gt;
