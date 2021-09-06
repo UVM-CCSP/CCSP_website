@@ -9,7 +9,7 @@
     <!-- UVM favicon -->
     <link rel="icon"
           type="image/ico"
-          href="/img/icon.ico">
+          href="{{ config.base_url }}img/icon.ico">
 
     <!-- Bootstrap 4.3.1 CSS -->
     <link rel="stylesheet"
@@ -18,7 +18,9 @@
           crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/local.css">
+    <link rel="stylesheet" 
+          type="text/css" 
+          href="{{ config.base_url }}css/local.css">
 
     <!-- zero-md JavaScript libraries to render Markdown -->
     <!-- source: https://github.com/zerodevx/zero-md -->
@@ -71,7 +73,7 @@
 
     {% block logo %}
     <div class="text-center">
-        <img id="uvm-logo" src="{{ config.base_url }}/img/logo.png">
+        <img id="uvm-logo" src="{{ config.base_url }}img/logo.png">
     </div>
     <hr/>
     {% endblock %}

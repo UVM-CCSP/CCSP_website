@@ -180,18 +180,19 @@ nav a:active {
 
 .lab-panel {
     min-height: 196px;
-    height: fit-content;
+    padding-bottom: 25px;
     border-radius: 15px 15px;
     margin-top: 25px;
     background-color: beige;
+    height: max-content;
 }
 
 .lab-content {
     text-align: left;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0px 10px 0px 15px;
     color: white;
-    height: fit-content;
 }
 
 .paginator {
@@ -240,6 +241,25 @@ nav a:active {
 
 .title {
     padding-top: 20px;
+}
+
+.lab-data {
+    width:100%;
+    height:max-content;
+}
+
+.lab-img {
+    max-height: 128px; 
+    max-width: 256px; 
+    border-radius: 2% 2%; 
+    margin-right: 1em;
+    align-content: center;
+}
+
+.lab-summary {
+    size: 10pt; 
+    text-align:start; 
+    line-height: 1.25em;
 }
 
 @media screen and (max-width: 480px) {
