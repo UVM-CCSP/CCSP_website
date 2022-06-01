@@ -9,7 +9,7 @@
     <!-- UVM favicon -->
     <link rel="icon"
           type="image/ico"
-          href="{{ config.base_url }}/img/icon.ico">
+          href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/img/icon.ico">
 
     <!-- Bootstrap 4.3.1 CSS -->
     <link rel="stylesheet"
@@ -20,7 +20,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" 
           type="text/css" 
-          href="{{ config.base_url }}/css/local.css">
+          href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/css/local.css">
 
     <!-- zero-md JavaScript libraries to render Markdown -->
     <!-- source: https://github.com/zerodevx/zero-md -->
@@ -58,12 +58,27 @@
                 <span class="sr-only">Close main menu</span>
                 <span class="fa fa-close" aria-hidden="true"></span>
             </a>
-                {% for navitem in config.extra.menu %}
+                
                 <a class="nav-item nav-link rounded-0" 
-                   id="nav-{{ navitem.name | lower }}-tab" 
-                   href="{{ config.base_url }}/{{ navitem.url }}"
-                   >{{ navitem.name }}</a>
-                {% endfor %}
+                   id="nav-welcome-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/welcome"
+                   >Welcome</a>
+                
+                <a class="nav-item nav-link rounded-0" 
+                   id="nav-blog-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/blog"
+                   >Blog</a>
+                
+                <a class="nav-item nav-link rounded-0" 
+                   id="nav-research-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/labs"
+                   >Research</a>
+                
+                <a class="nav-item nav-link rounded-0" 
+                   id="nav-education-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/education"
+                   >Education</a>
+                
         </nav>
         <a href="#main-menu-toggle"
         class="backdrop"
@@ -71,22 +86,49 @@
         aria-hidden="true" hidden></a>
     </header>
 
-    {% block logo %}
-    <div class="text-center">
-        <img id="uvm-logo" src="{{ config.base_url }}/img/logo.png">
-    </div>
-    <hr/>
-    {% endblock %}
+    
 
   <section class="section">
     <div class="container">
-      {% block content %} {% endblock %}
+      
+<h1 class="title">
+  UVM CCSP welcomes Dr. Yuanyuan Feng
+</h1>
+<p class="subtitle"><strong>2021-08-30</strong></p>
+<div class="post">
+  <p>Today is the start of classes and we are delight to formally introduce the newest member of the CCSP: <a href="https://uvm.edu/%7Efeng">Dr. Yuanyuan Feng</a>!</p>
+<span id="continue-reading"></span><h1 id="welcome-dr-feng"><a class="zola-anchor" href="#welcome-dr-feng" aria-label="Anchor link for: welcome-dr-feng">🔗</a> Welcome, Dr. Feng!</h1>
+<p><img src="https://uvm.edu/%7Eetosch/CCSP_website/blog/feng-new-hire/feng.jpg" alt="Dr. Yuanyuan Feng (冯园媛)" /> </p>
+<p>The UVM Center for Computer Security (CCSP) and Privacy welcomes a fifth tenure-track faculty member in Dr. Yuanyuan Feng! Dr. Feng's research will bring new dimensions to the CCSP via a human factors perspective on usable privacy and security. Dr. Feng's experience in the healthcare sector will further enrich the unique confluence of interdisciplinary research here at UVM. </p>
+<p>Dr. Feng is currently teaching CS 228, Human-Computer Interaction. She will be teaching a graduate-level course on methods for HCI research in the spring and will be recruiting students throughout the 2021-2022 academic year. </p>
+
+</div>
+
+<div class="paginator">
+  <hr/>
+  <div class="text-center"><a href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/blog">Blog Home</a></div>
+
+  
+      <a class="previous" href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website&#x2F;blog&#x2F;new-look&#x2F;">‹ A new look for CCSP</a>
+  
+  
+    <span class="mid">
+      &middot;&middot;&middot;
+    </span>
+  
+  
+      <a class="next" href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website&#x2F;blog&#x2F;socialheisting&#x2F;">Dr. Onaolapo presents honeypots work at USENIX 2021 ›</a>
+  
+  <hr/>
+</div>
+
+
     </div>
   </section>
 </body>
 <!-- Page footer -->
 <div class="text-center foot_style">
-    <a href="{{ config.base_url }}">Home</a>
+    <a href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website">Home</a>
     <h6>© 2021 UVM Center for Computer Security and Privacy</h6>
 </div>
 

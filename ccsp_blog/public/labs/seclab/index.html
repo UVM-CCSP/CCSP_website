@@ -9,7 +9,7 @@
     <!-- UVM favicon -->
     <link rel="icon"
           type="image/ico"
-          href="{{ config.base_url }}/img/icon.ico">
+          href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/img/icon.ico">
 
     <!-- Bootstrap 4.3.1 CSS -->
     <link rel="stylesheet"
@@ -20,7 +20,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" 
           type="text/css" 
-          href="{{ config.base_url }}/css/local.css">
+          href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/css/local.css">
 
     <!-- zero-md JavaScript libraries to render Markdown -->
     <!-- source: https://github.com/zerodevx/zero-md -->
@@ -58,12 +58,27 @@
                 <span class="sr-only">Close main menu</span>
                 <span class="fa fa-close" aria-hidden="true"></span>
             </a>
-                {% for navitem in config.extra.menu %}
+                
                 <a class="nav-item nav-link rounded-0" 
-                   id="nav-{{ navitem.name | lower }}-tab" 
-                   href="{{ config.base_url }}/{{ navitem.url }}"
-                   >{{ navitem.name }}</a>
-                {% endfor %}
+                   id="nav-welcome-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/welcome"
+                   >Welcome</a>
+                
+                <a class="nav-item nav-link rounded-0" 
+                   id="nav-blog-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/blog"
+                   >Blog</a>
+                
+                <a class="nav-item nav-link rounded-0" 
+                   id="nav-research-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/labs"
+                   >Research</a>
+                
+                <a class="nav-item nav-link rounded-0" 
+                   id="nav-education-tab" 
+                   href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/education"
+                   >Education</a>
+                
         </nav>
         <a href="#main-menu-toggle"
         class="backdrop"
@@ -71,22 +86,30 @@
         aria-hidden="true" hidden></a>
     </header>
 
-    {% block logo %}
+    
     <div class="text-center">
-        <img id="uvm-logo" src="{{ config.base_url }}/img/logo.png">
+        <img id="uvm-logo" src="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website/img/logo.png">
     </div>
     <hr/>
-    {% endblock %}
+    
 
   <section class="section">
     <div class="container">
-      {% block content %} {% endblock %}
+      
+<h4>Vermont SecLab</h4>
+
+<div class="page">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec tortor vitae quam hendrerit semper eget at libero. Curabitur posuere vitae velit pretium sodales. Nulla gravida lectus imperdiet massa varius lobortis. Duis dapibus purus ut pulvinar tempor. Donec in erat nec turpis malesuada hendrerit a id ligula. Vivamus eu pharetra nunc. Etiam sapien sapien, aliquam laoreet finibus ut, porttitor ut magna. Fusce vitae ultrices libero. Etiam ut quam at orci volutpat facilisis. Maecenas scelerisque consequat magna, vitae pellentesque eros congue tincidunt.</p>
+    
+</div>
+
+
     </div>
   </section>
 </body>
 <!-- Page footer -->
 <div class="text-center foot_style">
-    <a href="{{ config.base_url }}">Home</a>
+    <a href="https:&#x2F;&#x2F;uvm.edu&#x2F;~etosch&#x2F;CCSP_website">Home</a>
     <h6>© 2021 UVM Center for Computer Security and Privacy</h6>
 </div>
 

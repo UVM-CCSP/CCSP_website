@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{%  block content %}
+
+<h1 class="title">
+    {{ section.title }}
+</h1>
+
+{% for member in section.pages %}
+    <div class="">
+    {% if member.weight and member.weight % 2 == 0 %}
+    
+    {% endif %}
+</div>
+  {{ member.title }}
+{% endfor %}
+
+
+{% endblock content %}

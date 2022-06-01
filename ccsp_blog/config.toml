@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://uvm.edu/~etosch/CCSP_website/"
+base_url = "https://uvm.edu/~etosch/CCSP_website"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -15,11 +15,10 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 menu = [
-    {url = "welcome"  , name = "Welcome"         },
-    {url = "blog"     , name = "Blog"            },
-    {url = "labs"     , name = "Research Labs"   },
-    {url = "education", name = "Education"       },
-    {url = "vision"   , name = "Vision Statement"}
+    {url = "welcome"  , name = "Welcome"  },
+    {url = "blog"     , name = "Blog"     },
+    {url = "labs"     , name = "Research" },
+    {url = "education", name = "Education"}
 ]
 katex_enable = true
 katex_auto_render = true
